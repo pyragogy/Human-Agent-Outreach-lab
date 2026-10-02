@@ -30,6 +30,16 @@ flowchart LR
     H --> X[Hybrid]
     A --> X
     X --> R
+
+    classDef human fill:#1e293b,stroke:#e2e8f0,stroke-width:2px,color:#f8fafc
+    classDef agent fill:#0f172a,stroke:#60a5fa,stroke-width:2px,color:#dbeafe
+    classDef hybrid fill:#3b0764,stroke:#c084fc,stroke-width:2px,color:#f5d0fe
+    classDef outcome fill:#0f766e,stroke:#5eead4,stroke-width:2px,color:#ecfeff
+
+    class H human
+    class A agent
+    class X hybrid
+    class R outcome
 ```
 
 No hype. No winner required.
